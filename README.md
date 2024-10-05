@@ -7,20 +7,22 @@
 
 Here’s a list of key features: 
 
-## Patient Management 
+## 1) Patient Management 
 ### Patient Registration: 
-    Capture and manage patient demographics and medical history. 
-
-### Appointment Scheduling: 
-- Allow patients to book, 
-- reschedule, 
-- or cancel appointments. 
+    - Capture and manage patient demographics and medical history. 
 
 ### Patient Portal: 
-    This is a public part of the portal.
+    - This is a public part of the portal with authorization to access. 
+    - Login, Logout
+    - registration, validations
 - Provide patients access to their health records, 
 - appointments, 
 - and test results. 
+
+### Appointment Scheduling: 
+- Allow patients to book, 
+- Allow patients to reschedule, 
+- or cancel appointments. 
 
 ### Role-Based Access Control: 
 - Define user roles and permissions for system access. 
@@ -29,17 +31,15 @@ Here’s a list of key features:
 - Store and manage patient health information securely. 
 
 
-## Clinical Documentation: 
+## 2) Clinical Documentation: 
     - Support for documentation of clinical notes, 
     - treatment plans, 
     - and follow-ups. 
 
-### Interoperability: 
-    This is an API for 3d party systems (access from outside to the system`s data)
+## 3) Interoperability: 
 - Enable sharing of patient data across different health systems.
 
-
-## Billing and Insurance 
+## 4) Billing and Insurance 
 ### Insurance Verification: 
 - Check patient insurance eligibility and benefits.
     - Insurance unit.
@@ -56,16 +56,20 @@ Here’s a list of key features:
 - Automate submission and tracking of insurance claims. 
 
 
-## Scheduling and Resource Management 
+## 5) Scheduling and Resource Management 
+    - ? is this a part of the Clinic Back-Office?
+    - Clinic users? What kind of parameters/details are needed for them?
+    
 ### Staff Scheduling: 
 - Manage clinician and staff schedules, 
-- including shifts and availability. 
+- including shifts and availability.
 
 ### Resource Allocation: 
 - Track and allocate medical equipment 
-- and facility resources. 
+- and facility resources.
+  
 
-## Communication Tools Secure Messaging: 
+## 6) Communication Tools Secure Messaging: 
     Facilitate communication between patients and healthcare providers. 
 
 ### Reminders and Notifications: 
@@ -74,6 +78,7 @@ Here’s a list of key features:
 - and follow-ups. 
 
 ### Reporting and Analytics Performance Metrics: 
+    - the part of Back-office
 - Track key performance indicators (KPIs) for staff and patient care. 
 
 ## Data Analytics: 
@@ -95,13 +100,14 @@ Here’s a list of key features:
 - Monitor patient health metrics and conditions from afar. 
 
 
-## Inventory Management 
+## 7) Inventory Management 
 ### Pharmacy Management: 
-    ? additional system?
 - Track medication inventory, 
 - prescriptions, 
 - and refill requests. 
 
+
+# Requirements:
 ### Supplies Inventory: 
 - Manage medical supplies and equipment stock levels. 
 
