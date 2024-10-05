@@ -5,10 +5,11 @@
 - enhance patient care, 
 - and ensure efficient management. 
 
-## Here’s a list of key features: 
+Here’s a list of key features: 
 
-### Patient Management Patient Registration: 
-- Capture and manage patient demographics and medical history. 
+## Patient Management 
+### Patient Registration: 
+    Capture and manage patient demographics and medical history. 
 
 ### Appointment Scheduling: 
 - Allow patients to book, 
@@ -16,46 +17,56 @@
 - or cancel appointments. 
 
 ### Patient Portal: 
+    This is a public part of the portal.
 - Provide patients access to their health records, 
 - appointments, 
 - and test results. 
 
+### Role-Based Access Control: 
+- Define user roles and permissions for system access. 
+
 ### Medical Records Management Electronic Health Records (EHR): 
 - Store and manage patient health information securely. 
 
-### Clinical Documentation: 
-- Support for documentation of clinical notes, 
-- treatment plans, 
-- and follow-ups. 
+
+## Clinical Documentation: 
+    - Support for documentation of clinical notes, 
+    - treatment plans, 
+    - and follow-ups. 
 
 ### Interoperability: 
-- Enable sharing of patient data across different health systems. 
+    This is an API for 3d party systems (access from outside to the system`s data)
+- Enable sharing of patient data across different health systems.
 
-### Billing and Insurance 
-#### Insurance Verification: 
-- Check patient insurance eligibility and benefits. 
 
-#### Billing Management: 
-- Generate 
+## Billing and Insurance 
+### Insurance Verification: 
+- Check patient insurance eligibility and benefits.
+    - Insurance unit.
+    - Insurance details.
+
+### Billing Management: 
+    - Billing unit. Invoices. Payments?
+- Generate invoices (what kind of templates?)
 - and manage invoices, 
 - payment processing, 
 - and financial reporting. 
 
-#### Claims Processing: 
+### Claims Processing: 
 - Automate submission and tracking of insurance claims. 
 
 
-### Scheduling and Resource Management 
-#### Staff Scheduling: 
+## Scheduling and Resource Management 
+### Staff Scheduling: 
 - Manage clinician and staff schedules, 
 - including shifts and availability. 
 
-#### Resource Allocation: 
+### Resource Allocation: 
 - Track and allocate medical equipment 
 - and facility resources. 
 
-### Communication Tools Secure Messaging: 
-- Facilitate communication between patients and healthcare providers. 
+## Communication Tools Secure Messaging: 
+    Facilitate communication between patients and healthcare providers. 
 
 ### Reminders and Notifications: 
 - Automated reminders for appointments, 
@@ -65,24 +76,28 @@
 ### Reporting and Analytics Performance Metrics: 
 - Track key performance indicators (KPIs) for staff and patient care. 
 
-### Data Analytics: 
+## Data Analytics: 
 - Analyze trends in patient care, 
 - financial performance, 
 - and operational efficiency. 
 
-### Compliance and Security HIPAA Compliance: 
+## Compliance and Security HIPAA Compliance: 
 - Ensure patient data privacy and security in accordance with regulations. 
 
-### Role-Based Access Control: 
+## Role-Based Access Control: 
 - Define user roles and permissions for system access. 
 
-### Telehealth Services Virtual Consultations: 
+## Telehealth Services Virtual Consultations: 
 - Enable remote consultations through video or chat. 
 
-### Remote Patient Monitoring: 
+## Remote Patient Monitoring: 
+    ? what is this?
 - Monitor patient health metrics and conditions from afar. 
 
-### Inventory Management Pharmacy Management: 
+
+## Inventory Management 
+### Pharmacy Management: 
+    ? additional system?
 - Track medication inventory, 
 - prescriptions, 
 - and refill requests. 
@@ -90,25 +105,27 @@
 ### Supplies Inventory: 
 - Manage medical supplies and equipment stock levels. 
 
-### User Experience User-Friendly Interface: 
+
+## User Experience User-Friendly Interface: 
 - Ensure ease of use for patients and healthcare providers. 
 
-### Mobile Accessibility: 
+## Mobile Accessibility: 
 - Provide mobile applications 
 - or responsive design for access on various devices. 
 
-### Integration Capabilities 
 
-#### Third-Party Integration: 
+## Integration Capabilities 
+### Third-Party Integration: 
+    This needs API access and schemas of these Standards.
 - Support integration with laboratory systems, 
 - pharmacies, 
 - and other healthcare tools. 
 
-#### API Support: 
+### API Support: 
 - Allow for custom integrations with existing systems. 
 
 
-### Training and Support User Training: 
+## Training and Support User Training: 
 - Offer training resources for staff to effectively use the system. 
 
 ### Technical Support: 
